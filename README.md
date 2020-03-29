@@ -26,7 +26,7 @@ Examples
 >>> x += np.random.normal(scale=np.sqrt(noise_power), size=time.shape)
 >>> psd2(x, fs=freq);
 ```
- * [In a Jupyter notebook](https://github.com/demotu/psd2/blob/master/docs/psd2.ipynb)
+ * [psd2.ipynb](https://github.com/demotu/psd2/blob/master/docs/psd2.ipynb)
 
 How to cite this work
 ---------------------
