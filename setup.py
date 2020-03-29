@@ -5,10 +5,10 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="psd2",
-    version="0.0.1",
+    version="0.0.4",
     author="Marcos Duarte",
     author_email="duartexyz@gmail.com",
-    description="Estimate power spectral density characteristcs using Welch's method",
+    description="Estimate power spectral density characteristics using Welch's method",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/demotu/psd2",

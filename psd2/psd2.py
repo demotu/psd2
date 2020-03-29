@@ -1,21 +1,21 @@
 #!/usr/bin/env python
 
-"""Estimate power spectral density characteristcs using Welch's method."""
+"""Estimate power spectral density characteristics using Welch's method."""
 
 import numpy as np
 
 __author__ = 'Marcos Duarte, https://github.com/demotu'
-__version__ = "0.0.1"
+__version__ = "0.0.4"
 __license__ = "MIT"
 
 
 def psd2(x, fs=1.0, window='hanning', nperseg=None, noverlap=None, nfft=None,
         detrend='constant', show=True, ax=None, scales='linear', xlim=None,
         units='V'):
-    """Estimate power spectral density characteristcs using Welch's method.
+    """Estimate power spectral density characteristics using Welch's method.
 
     This function is just a wrap of the scipy.signal.welch function with
-    estimation of some frequency characteristcs and a plot. For completeness,
+    estimation of some frequency characteristics and a plot. For completeness,
     most of the help from scipy.signal.welch function is pasted here.
 
     Welch's method [1]_ computes an estimate of the power spectral density
