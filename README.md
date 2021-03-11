@@ -1,5 +1,7 @@
 # [psd2](https://pypi.org/project/psd2/)
 
+[![DOI](https://zenodo.org/badge/250857887.svg)](https://zenodo.org/badge/latestdoi/250857887)
+
 Estimation of power spectral density characteristics using Welch's method
 
 The function psd2.py from Python module psd2 estimates power spectral density characteristics using Welch's method. This function is just a wrap of the scipy.signal.welch function with estimation of some frequency characteristics and a plot.
@@ -44,13 +46,15 @@ Here is a suggestion to cite this GitHub repository:
 And a possible BibTeX entry:
 
 ```tex
-@misc{Duarte2020,  
-    author = {Duarte, M.},
-    title = {psd2: A Python module for estimation of power spectral density characteristics using Welch's method},  
-    year = {2020},  
-    publisher = {GitHub},  
-    journal = {GitHub repository},  
-    howpublished = {\url{https://github.com/demotu/psd2}}  
+@software{marcos_duarte_2021_4599105,
+  author       = {Marcos Duarte},
+  title        = {demotu/psd2:},
+  month        = mar,
+  year         = 2021,
+  publisher    = {Zenodo},
+  version      = {v0.0.4},
+  doi          = {10.5281/zenodo.4599105},
+  url          = {https://doi.org/10.5281/zenodo.4599105}
 }
 ```
 
