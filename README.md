@@ -41,14 +41,14 @@ conda install -c duartexyz psd2
 
 Here is a suggestion to cite this GitHub repository:
 
-> Duarte, M. (2020) psd2: A Python module for estimation of power spectral density characteristics using Welch's method. GitHub repository, <https://github.com/demotu/psd2>.
+> Marcos Duarte. (2021). psd2: A Python module for estimation of power spectral density characteristics using Welch's method (Version v0.0.4). Zenodo. http://doi.org/10.5281/zenodo.4599105
 
 And a possible BibTeX entry:
 
 ```tex
 @software{marcos_duarte_2021_4599105,
   author       = {Marcos Duarte},
-  title        = {demotu/psd2:},
+  title        = {{psd2: A Python module for estimation of power spectral density characteristics using Welch's method}},
   month        = mar,
   year         = 2021,
   publisher    = {Zenodo},
