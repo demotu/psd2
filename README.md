@@ -1,5 +1,6 @@
 # [psd2](https://pypi.org/project/psd2/)
 
+[![PyPI version](https://badge.fury.io/py/psd2.svg)](https://badge.fury.io/py/psd2)
 [![DOI](https://zenodo.org/badge/250857887.svg)](https://zenodo.org/badge/latestdoi/250857887)
 
 Estimation of power spectral density characteristics using Welch's method
