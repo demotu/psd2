@@ -62,16 +62,17 @@ uvx marimo edit --sandbox docs/psd2_notebook.py
 
 Here is a suggestion to cite this software, with its concept DOI, which always resolves to the latest version (to cite a specific version, use its DOI listed on [Zenodo](https://doi.org/10.5281/zenodo.4599104)):
 
-> Marcos Duarte. (2021). psd2: A Python module for estimation of power spectral density characteristics using Welch's method. Zenodo. https://doi.org/10.5281/zenodo.4599104
+> Marcos Duarte. (2026). psd2: A Python module for estimation of power spectral density characteristics using Welch's method (v0.0.5). Zenodo. https://doi.org/10.5281/zenodo.4599104
 
 And a possible BibTeX entry:
 
 ```tex
 @software{duarte_psd2,
-  author       = {Marcos Duarte},
+  author       = {Duarte, Marcos},
   title        = {{psd2: A Python module for estimation of power spectral density characteristics using Welch's method}},
-  year         = 2021,
+  year         = 2026,
   publisher    = {Zenodo},
+  version      = {v0.0.5},
   doi          = {10.5281/zenodo.4599104},
   url          = {https://doi.org/10.5281/zenodo.4599104}
 }
