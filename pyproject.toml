@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "psd2"
+dynamic = ["version"]
+description = "Estimation of power spectral density characteristics using Welch's method"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Marcos Duarte", email = "duartexyz@gmail.com" }]
+requires-python = ">=3.9"
+dependencies = ["numpy", "scipy>=1.6"]
+keywords = ["power spectral density", "Welch", "median frequency", "signal processing", "biomechanics"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+]
+
+[project.optional-dependencies]
+plot = ["matplotlib"]
+test = ["pytest", "matplotlib"]
+
+[project.urls]
+Homepage = "https://github.com/demotu/psd2"
+Documentation = "https://github.com/demotu/psd2/tree/master/docs"
+Issues = "https://github.com/demotu/psd2/issues"
+
+[tool.setuptools]
+packages = ["psd2"]
+
+[tool.setuptools.dynamic]
+version = { attr = "psd2.__version__" }
+
+[tool.pytest.ini_options]
+filterwarnings = ["error::DeprecationWarning:psd2", "ignore:.*non-interactive:UserWarning"]
