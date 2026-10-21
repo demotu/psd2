@@ -5,6 +5,7 @@
 #     "matplotlib",
 #     "numpy",
 #     "psd2",
+#     "pyversions",
 #     "scipy",
 # ]
 # ///
@@ -68,10 +69,17 @@ def _():
     import matplotlib.pyplot as plt
     import numpy as np
     from scipy import fft, integrate, signal
+    import pyversions
 
     from psd2 import psd2
 
-    return fft, integrate, mo, np, plt, psd2, signal
+    return fft, integrate, mo, np, plt, psd2, pyversions, signal
+
+
+@app.cell
+def _(pyversions):
+    _info = pyversions.versions()
+    return
 
 
 @app.cell

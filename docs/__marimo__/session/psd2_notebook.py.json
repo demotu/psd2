@@ -2,7 +2,7 @@
   "version": "1",
   "metadata": {
     "marimo_version": "0.25.2",
-    "script_metadata_hash": "cfbceb5af65298c30f4c9a96c15b8a8e"
+    "script_metadata_hash": "8e4f75cdd7691f6199fd52e00fa30156"
   },
   "cells": [
     {
@@ -46,7 +46,7 @@
     },
     {
       "id": "bkHC",
-      "code_hash": "f56d7fff2205f9784f692eab37026f71",
+      "code_hash": "9f917437da73603fe36b4da6e1c6fe4b",
       "outputs": [
         {
           "type": "data",
@@ -59,6 +59,26 @@
     },
     {
       "id": "lEQa",
+      "code_hash": "91a773d98b11506f4773a022fefbdd72",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Linux 7.0.0-38-generic 64-bit #38-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 09:10:14 UTC 2026\nCPython 3.14.7 (main, Aug 14 2026, 15:35:28) [Clang 22.1.3 ]\nOct 20 2026, 23:03:26\n\nModule            Version\nmarimo             0.25.2\nmatplotlib         3.11.2\nnumpy               2.5.4\npsd2                0.0.5\nscipy              1.18.1\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "PKri",
       "code_hash": "86cc1aa6401289c517fe7593a4d7161a",
       "outputs": [
         {
@@ -78,7 +98,7 @@
       ]
     },
     {
-      "id": "PKri",
+      "id": "Xref",
       "code_hash": "2153ca6a757ecbfecd66a226b260238f",
       "outputs": [
         {
@@ -91,7 +111,7 @@
       "console": []
     },
     {
-      "id": "Xref",
+      "id": "SFPL",
       "code_hash": "3bb0cb3ee6527fa1fe21fcfb98cf95b6",
       "outputs": [
         {
@@ -104,7 +124,7 @@
       "console": []
     },
     {
-      "id": "SFPL",
+      "id": "BYtC",
       "code_hash": "bf88892a27b9329249464a3c364ca621",
       "outputs": [
         {
@@ -124,7 +144,7 @@
       ]
     },
     {
-      "id": "BYtC",
+      "id": "RGSE",
       "code_hash": "6807b92773c3908d16ab8538379159ab",
       "outputs": [
         {
@@ -137,7 +157,7 @@
       "console": []
     },
     {
-      "id": "RGSE",
+      "id": "Kclp",
       "code_hash": "af0c376e95a779b7030aed964454235b",
       "outputs": [
         {
@@ -150,7 +170,7 @@
       "console": []
     },
     {
-      "id": "Kclp",
+      "id": "emfo",
       "code_hash": "992278dd4dfa51ea4cba90e8b9dc213a",
       "outputs": [
         {
@@ -163,7 +183,7 @@
       "console": []
     },
     {
-      "id": "emfo",
+      "id": "Hstk",
       "code_hash": "efd2227d1bd7c4a6b88a98f59c724bf6",
       "outputs": [
         {
@@ -176,7 +196,7 @@
       "console": []
     },
     {
-      "id": "Hstk",
+      "id": "nWHF",
       "code_hash": "aa67b0f61d8e67e39e90eb45ee2206af",
       "outputs": [
         {
@@ -189,7 +209,7 @@
       "console": []
     },
     {
-      "id": "nWHF",
+      "id": "iLit",
       "code_hash": "1b4864ff4410c63239f48d34e511cbe9",
       "outputs": [
         {
@@ -209,7 +229,7 @@
       ]
     },
     {
-      "id": "iLit",
+      "id": "ZHCJ",
       "code_hash": "4c7caa057594c959fa2411a0f2e87b6d",
       "outputs": [
         {
@@ -222,7 +242,7 @@
       "console": []
     },
     {
-      "id": "ZHCJ",
+      "id": "ROlb",
       "code_hash": "562464335bcda9a7951e810131c54161",
       "outputs": [
         {
@@ -248,7 +268,7 @@
       ]
     },
     {
-      "id": "ROlb",
+      "id": "qnkX",
       "code_hash": "d6887b21fb1cf75f78e6be3bdce654a0",
       "outputs": [
         {
@@ -261,20 +281,20 @@
       "console": []
     },
     {
-      "id": "qnkX",
+      "id": "TqIu",
       "code_hash": "9916e4b15d904a6fb476e29da27e01c3",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/html": "<div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 4rem'><marimo-ui-element object-id='qnkX-0' random-id='f9c3402f-50af-296f-8dc6-73da988fc8af'><marimo-slider data-initial-value='4' data-label='&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003enperseg&#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;' data-start='0' data-stop='6' data-step='1' data-steps='[64,128,256,512,1024,2048,4096]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='true' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element><marimo-ui-element object-id='qnkX-1' random-id='4832d09f-17aa-1052-4f92-e1651f7b487b'><marimo-dropdown data-initial-value='[&quot;semilogy&quot;]' data-label='&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003escales&#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;' data-options='[&quot;linear&quot;,&quot;semilogy&quot;,&quot;semilogx&quot;,&quot;loglog&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='false' data-disabled='false'></marimo-dropdown></marimo-ui-element></div>"
+            "text/html": "<div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 4rem'><marimo-ui-element object-id='TqIu-0' random-id='595955c8-eb5b-d87b-b825-b5d6afc86cab'><marimo-slider data-initial-value='4' data-label='&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003enperseg&#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;' data-start='0' data-stop='6' data-step='1' data-steps='[64,128,256,512,1024,2048,4096]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='true' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element><marimo-ui-element object-id='TqIu-1' random-id='32ac0d74-cb7b-dfed-c40d-2d42d6e7fbb3'><marimo-dropdown data-initial-value='[&quot;semilogy&quot;]' data-label='&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003escales&#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;' data-options='[&quot;linear&quot;,&quot;semilogy&quot;,&quot;semilogx&quot;,&quot;loglog&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='false' data-disabled='false'></marimo-dropdown></marimo-ui-element></div>"
           }
         }
       ],
       "console": []
     },
     {
-      "id": "TqIu",
+      "id": "Vxnm",
       "code_hash": "f96391aa3e2364e2f03e38d3424c9e35",
       "outputs": [
         {
