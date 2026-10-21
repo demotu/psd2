@@ -14,6 +14,12 @@ The psd2.py returns power spectral density data, frequency percentiles of the po
 pip install psd2
 ```
 
+The plots (parameter `show=True`, the default) require matplotlib, which can be installed together with:
+
+```bash
+pip install "psd2[plot]"
+```
+
 Or
 
 ```bash
@@ -23,20 +29,34 @@ conda install -c duartexyz psd2
 ## Examples
 
 ```python
-#Generate a test signal, a 2 Vrms sine wave at 1234 Hz, corrupted by
+>>> import numpy as np
+>>> from psd2 import psd2
+# Generate a test signal, a 2 Vrms sine wave at 1234 Hz, corrupted by
 # 0.001 V**2/Hz of white noise sampled at 10 kHz and calculate the PSD:
 >>> fs = 10e3
->>> N = 1e5
+>>> N = 100000
 >>> amp = 2*np.sqrt(2)
 >>> freq = 1234.0
 >>> noise_power = 0.001 * fs / 2
 >>> time = np.arange(N) / fs
 >>> x = amp*np.sin(2*np.pi*freq*time)
 >>> x += np.random.normal(scale=np.sqrt(noise_power), size=time.shape)
->>> psd2(x, fs=freq);
+>>> fpcntile, mpf, fmax, Ptotal, f, P = psd2(x, fs=fs, nperseg=1024)
 ```
 
-- [psd2.ipynb](https://github.com/demotu/psd2/blob/master/docs/psd2.ipynb)
+More examples are in a [marimo](https://marimo.io) notebook in the [docs](https://github.com/demotu/psd2/tree/master/docs) directory. Run it in your browser, no installation needed:
+
+| Notebook | molab | marimo.app |
+|---|---|---|
+| [psd2](https://molab.marimo.io/github/demotu/psd2/blob/master/docs/psd2_notebook.py) | [![Open in molab](https://marimo.io/molab-shield.svg)](https://molab.marimo.io/github/demotu/psd2/blob/master/docs/psd2_notebook.py/wasm) | [![Open with marimo](https://marimo.io/shield.svg)](https://marimo.app/github.com/demotu/psd2/blob/master/docs/psd2_notebook.py) |
+
+The notebook name links to a static preview with the outputs; the badges run the notebook in your browser with [WebAssembly](https://docs.marimo.io/guides/wasm/).
+
+Or run it locally:
+
+```bash
+uvx marimo edit --sandbox docs/psd2_notebook.py
+```
 
 ## How to cite this work
 
