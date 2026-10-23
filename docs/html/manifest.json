@@ -1,0 +1,14 @@
+{
+  "exporter": "marimo export html",
+  "notebooks": [
+    {
+      "source": "docs/psd2_notebook.py",
+      "source_sha256": "3fa4571e6871c3b176f053d7fb071e52da1afaeb05346aa4ee72e088fb876bd6",
+      "shared_inputs_sha256": "9f3022caa570dc00b0306c36263c9099f7c8fa93445a6ed5e6d42dee81036e44",
+      "html": "psd2_notebook.html",
+      "html_sha256": "eea1f981e3a6edce6c638806c74cec84343c1e943ea82b3a710a16ddfbe7e19e",
+      "cells": 20,
+      "cells_with_saved_figures": 5
+    }
+  ]
+}

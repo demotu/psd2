@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-23",
+  "base_commit": "bf7a9df5476f7cb6f7d956dfbb11c700b51f07b9",
+  "source_directory": "docs",
+  "saved_directory": "docs/html",
+  "editable_directory": ".",
+  "url_prefix": "/psd2/",
+  "publishing_environment": {
+    "python": "3.14.7",
+    "marimo": "0.25.2",
+    "docs_group_python": ">=3.10",
+    "package_python": ">=3.9"
+  },
+  "test_results": {
+    "python314": 23,
+    "python39": 9,
+    "python39_skips": 1
+  },
+  "native_saved_exports_passed": 1,
+  "native_editable_exports_passed": 1,
+  "saved_cells": 20,
+  "saved_figure_cells": 5,
+  "browser_method": "Actual Chromium WASM Python under the project URL prefix, with molab and marimo.app blocked; no computation or data stubs.",
+  "browser_result": {
+    "repo": "psd2",
+    "source": "docs/psd2_notebook.py",
+    "html": "psd2_notebook.html",
+    "source_sha256": "3fa4571e6871c3b176f053d7fb071e52da1afaeb05346aa4ee72e088fb876bd6",
+    "html_sha256": "853033c0236b6c5fed237c18ea64b556380be78793936ad09269b0440e4ac49c",
+    "cell_states": {
+      "idle": 20
+    },
+    "plots": 5,
+    "expected_plot_cells": 5,
+    "control_change": {
+      "parameter": "nperseg",
+      "before_slider_value": "4",
+      "after_slider_value": "6"
+    },
+    "states_after_control": {
+      "idle": 20
+    },
+    "plot_recomputed": true,
+    "keyboard_edit_results": [
+      42,
+      48
+    ],
+    "mode_switch_both_directions": true,
+    "status": "passed",
+    "page_errors": [],
+    "seconds": 32.0
+  },
+  "link_audit": {
+    "repo": "psd2",
+    "source_and_html_hashes": "passed",
+    "local_asset_and_page_targets": 191,
+    "readme_root_and_saved_links": "passed",
+    "plain_molab_url": true,
+    "original_cache_sha256": {
+      "docs/__marimo__/session/psd2_notebook.py.json": "166a497833afb6f7699958ddb632791dd3b652d01226a72ebbee668514209f6c"
+    },
+    "package_notebook_release_ci_unchanged": true,
+    "superpowers_ignored": true,
+    "new_file_whitespace_check": "passed"
+  },
+  "wheel_metadata": "Built wheel retains original version, Python >=3.9 and original runtime dependencies. Publishing tools are absent from runtime requirements.",
+  "package_notebook_cache_citation_and_release_ci_unchanged": true,
+  "pages_source": "Already configured as workflow; inspected through GitHub API without changing remote settings.",
+  "independent_review": "No Critical or Important findings. Two psd2 documentation/copy leftovers were corrected before completion. No deferred findings.",
+  "exporter_sha256": {
+    "scripts/export_notebooks.py": "7aae37d6e6d24bcd1616cdc255bc8aa933403ceab2fbab17c78a160f758ad1dd",
+    "scripts/export_editable.py": "59ef67293127543660908d3f42c59ffca14a6a82a13c25166503c5b39a4f2807"
+  },
+  "internal_plans": "Local-only superpowers notes are ignored and must not be committed or pushed.",
+  "publication_performed": false,
+  "limits": "Local native exports, links, default examples, actual keyboard editing, mode switching and existing plot controls verified. CI and full Cayman/Pages deployment are checked after this authorized push. Runtime/packages and saved display assets require Internet; not every optional parameter combination is tested.",
+  "publication_recording_stage": "Verification captured before the prepared commit. The user subsequently authorized push; CI and live Pages results are checked after publication and reported in the final handoff."
+}

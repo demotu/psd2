@@ -44,13 +44,16 @@ conda install -c duartexyz psd2
 >>> fpcntile, mpf, fmax, Ptotal, f, P = psd2(x, fs=fs, nperseg=1024)
 ```
 
-More examples are in a [marimo](https://marimo.io) notebook in the [docs](https://github.com/demotu/psd2/tree/master/docs) directory. Run it in your browser, no installation needed:
+More examples are in a [marimo](https://marimo.io) notebook in [docs/](https://github.com/demotu/psd2/tree/master/docs). Click the notebook name to open its **editable GitHub Pages version**. Click **Run all**, then edit and rerun cells to experiment. Download the Python file to keep changes; browser edits do not update this repository.
 
-| Notebook | molab | marimo.app |
-|---|---|---|
-| [psd2](https://molab.marimo.io/github/demotu/psd2/blob/master/docs/psd2_notebook.py) | [![Open in molab](https://marimo.io/molab-shield.svg)](https://molab.marimo.io/github/demotu/psd2/blob/master/docs/psd2_notebook.py/wasm) | [![Open with marimo](https://marimo.io/shield.svg)](https://marimo.app/github.com/demotu/psd2/blob/master/docs/psd2_notebook.py) |
+- [psd2](https://demotu.github.io/psd2/psd2_notebook.html) [![molab][molab-badge]](https://molab.marimo.io/github/demotu/psd2/blob/master/docs/psd2_notebook.py) [![marimo][marimo-badge]](https://marimo.app/github.com/demotu/psd2/blob/master/docs/psd2_notebook.py)
 
-The notebook name links to a static preview with the outputs; the badges run the notebook in your browser with [WebAssembly](https://docs.marimo.io/guides/wasm/).
+The notebook links to its **Read saved outputs** version in [docs/html/](https://demotu.github.io/psd2/docs/html/). Saved text and plots can be read without running Python; their controls cannot recompute results. Both modes are hosted on this repository's GitHub Pages site independently of molab and marimo.app. The badges provide alternative interactive services; molab uses its standard execution mode.
+
+Editable Pages runs Python through [WebAssembly](https://docs.marimo.io/guides/wasm/) and downloads its runtime and packages. Saved pages load display assets, so both modes need an Internet connection. GitHub Actions refreshes saved outputs and publishes editable notebooks on every push to `master`. See [scripts/README.md](scripts/README.md) for local updates and previews.
+
+[molab-badge]: https://img.shields.io/badge/molab-334155?style=flat-square
+[marimo-badge]: https://img.shields.io/badge/marimo-235b43?style=flat-square
 
 Or run it locally:
 
